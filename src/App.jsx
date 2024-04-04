@@ -12,13 +12,15 @@ function DogImage() {
 
   return (
     <img
-      src="dog.png" // Add the path to your dog image here
+      src="../src/dog.png"
       alt="Dog"
       className="dog"
       style={{
         position: 'absolute',
         left: position.left,
         top: position.top,
+        width: '250px', 
+        height: '250px', 
       }}
     />
   );
